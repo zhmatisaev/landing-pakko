@@ -1,0 +1,152 @@
+@import "_variables";
+
+body {
+  color: $dark;
+  font-size: 16px;
+  font-family: "Inter" sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 33px 15px;
+}
+.container {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  &__item {
+    margin-left: 4.4rem;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-left: 2.7rem;
+    }
+  }
+  &__link {
+    color: $dark;
+    text-decoration: none;
+  }
+  &__btn {
+    font-size: 1.4rem;
+    background-color: $purple;
+    color: $white;
+    text-decoration: none;
+    padding: 1.2rem 2.4rem;
+    border-radius: 0.6rem;
+  }
+}
+
+.banner {
+  text-align: center;
+  background-color: $dark;
+  color: $white;
+  position: relative;
+  padding-bottom: 757px;
+
+  &__title {
+    font-size: 5.5rem;
+    max-width: 570px;
+    margin: 0 auto 3.1rem;
+    padding-top: 62px;
+  }
+  &__img {
+    position: absolute;
+    bottom: -200px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+  }
+}
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__btn {
+    background-color: transparent;
+    border: 1px solid $white;
+    font-size: 1.6rem;
+    padding: 1.7rem 3.7rem;
+    color: $white;
+    border-radius: 0.6rem;
+    margin: 0.8rem;
+
+    &-main {
+      font-size: 1.5rem;
+      background-color: $purple;
+      border: 1px solid $purple;
+    }
+  }
+}
+
+// .tarif {
+//     display: flex;
+//   justify-content: space-between;
+//   &-item {
+//         &-01 {
+//         .tarif-footer {
+//                background-color: #DBDAE0;
+//             }
+//         }
+
+//         &-02 {
+//             .tarif-footer {
+//                  background-color: #DBDAE0;
+//             }
+//          }
+//          &-03 {
+//         .tarif-footer {
+//         background-color: #DBDAE0;
+//         }
+//     }
+// }
+
+.tarif {
+  display: flex;
+  justify-content: space-between;
+
+  &-item {
+    flex: 0 0 32%;
+    &-01 {
+      .tarif-footer {
+        background-color: rgba($color: $dark, $alpha: 0.03);
+      }
+    }
+    &-02 {
+      .tarif-footer {
+        background-color: rgba($color: #19c787, $alpha: 0.05);
+      }
+    }
+    &-03 {
+      .tarif-footer {
+        background-color: rgba($color: #fcb934, $alpha: 0.05);
+      }
+    }
+  }
+  &-footer {
+    border-radius: 0 0 0.8rem 0.8rem;
+  }
+  &-list {
+    list-style: none;
+    padding-left: 0;
+  }
+}

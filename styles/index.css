@@ -1,0 +1,160 @@
+body {
+  color: #100a30;
+  font-size: 16px;
+  font-family: "Inter" sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 33px 15px;
+}
+
+.container {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.nav__item {
+  margin-left: 4.4rem;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
+}
+
+.nav__item:last-child {
+  margin-left: 2.7rem;
+}
+
+.nav__link {
+  color: #100a30;
+  text-decoration: none;
+}
+
+.nav__btn {
+  font-size: 1.4rem;
+  background-color: #624de3;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.6rem;
+}
+
+.banner {
+  text-align: center;
+  background-color: #100a30;
+  color: #ffffff;
+  position: relative;
+  padding-bottom: 757px;
+}
+
+.banner__title {
+  font-size: 5.5rem;
+  max-width: 570px;
+  margin: 0 auto 3.1rem;
+  padding-top: 62px;
+}
+
+.banner__img {
+  position: absolute;
+  bottom: -200px;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+
+.btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-group__btn {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  font-size: 1.6rem;
+  padding: 1.7rem 3.7rem;
+  color: #ffffff;
+  border-radius: 0.6rem;
+  margin: 0.8rem;
+}
+
+.btn-group__btn-main {
+  font-size: 1.5rem;
+  background-color: #624de3;
+  border: 1px solid #624de3;
+}
+
+.tarif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tarif-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 32%;
+          flex: 0 0 32%;
+}
+
+.tarif-item-01 .tarif-footer {
+  background-color: rgba(16, 10, 48, 0.03);
+}
+
+.tarif-item-02 .tarif-footer {
+  background-color: rgba(25, 199, 135, 0.05);
+}
+
+.tarif-item-03 .tarif-footer {
+  background-color: rgba(252, 185, 52, 0.05);
+}
+
+.tarif-footer {
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.tarif-list {
+  list-style: none;
+  padding-left: 0;
+}
+/*# sourceMappingURL=index.css.map */
